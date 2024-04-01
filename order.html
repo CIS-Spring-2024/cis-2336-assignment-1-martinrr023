@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UH Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The SL Corner</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About Me.html">About Me</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="menu">
+        <h1>Welcome to the SL corner, Here at the Sugarland campus we offer a variety of your classic American foods</h1>
+        <h2>ORDER HERE</h2>
+        <form id="orderForm">
+            <div class="dropdown">
+                <h3>Burgers $2.99</h3>
+                <p>Juicy beef patties with fresh toppings.</p>
+                <label for="burgers">Quantity:</label>
+                <input type="number" id="burgers" name="burgers" min="0" value="0"><br>
+                <h3>Wings 2 PC $5.99</h3>
+                <p>Crispy chicken wings in signature sauces.</p>
+                <label for="wings">Quantity:</label>
+                <input type="number" id="wings" name="wings" min="0" value="0"><br>
+                <h3>Sandwiches $3.99</h3>
+                <p>Hearty deli-style and grilled options.</p>
+                <label for="sandwiches">Quantity:</label>
+                <input type="number" id="sandwiches" name="sandwiches" min="0" value="0"><br>
+                <input type="submit" value="Submit Order">
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 The SL Corner. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("orderForm").onsubmit = function(event) {
+            event.preventDefault(); 
+          
+            alert("Order received!"); 
+    </script>
+</body>
+</html>

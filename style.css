@@ -32,10 +32,12 @@ nav ul li a:hover {
     color: #fd07bf
 }
 
+
 nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+
 
 main {
     padding: 20px;
@@ -79,30 +81,22 @@ img {
 .pic-burger{
     width: 300px;
     height: 300px;
-    margin-left: 10%; 
+    margin-left: 0%; 
 }
 .pic-wings{
     width: 300px;
     height: 300px;
-    margin-left: 10%; 
+    margin-left: 0%; 
 }
 .pic-sandwhich{
     width: 300px;
     height: 300px;
-    margin-left: 10%; 
+    margin-left: 0%; 
 }
 
 .promt-type{
     margin-top: auto;
 }
-.dropbtn {
-    background-color: #d40000;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #fd07bf;
-  }
+.dropdown-content p {
+    display: none;
+}
